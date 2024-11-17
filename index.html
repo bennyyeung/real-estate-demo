@@ -4,18 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prime Properties Demo</title>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="app.css" />
   </head>
   <body class="bg-light">
-    <!-- Navigation Bar -->
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="https://res.cloudinary.com/dojzx3lcr/image/upload/v1731775160/Portfolio/Real%20Estates/krypnc6il1dsr0tj1o5v.png"
+            src="https://res.cloudinary.com/dojzx3lcr/image/upload/v1731794247/Portfolio/Real%20Estates/hc7aqcbmrrdpfe8ejcen.png"
             width="100%"
             height="50"
             class="d-inline-block align-top"
@@ -36,11 +35,38 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Home
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Find a Property</a></li>
+                <li><a class="dropdown-item" href="#">Market Your Property</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Find a Service</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Listings
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Retail</a></li>
+                <li><a class="dropdown-item" href="#">Offices</a></li>
+              </ul>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -50,17 +76,46 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Blogs
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Retail Zoning</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Careers
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Why Join Prime Properties</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Graduate & Apprenticeship Programmes</a></li>
+                <li><a class="dropdown-item" href="#">Vacancies</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contact
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Arrange your valuation</a></li>
+              </ul>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -74,18 +129,30 @@
     <!-- Sections -->
     <div class="container w-100 my-4" style="max-width: 99%">
       <div
-        class="firstdiv rounded-4 bg-cover bg-center shadow-sm"
+        class="firstdiv rounded-4 bg-cover bg-center shadow-sm d-flex flex-column justify-content-center align-items-center text-center"
         style="
           background-image: url('https://images.unsplash.com/photo-1522749934961-772e25dddb3f?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
           height: 75vh;
           background-position: 0% 60%;
         "
-      ></div>
+      >
+        <h1 style="font-size: 4em; color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); margin: 0">
+          Dedicated to the future
+        </h1>
+        <h3 style="font-size: 1.5em; color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0); margin: 0">
+          Search properties for sale and to rent in London
+        </h3>
+        <div class="search">
+          <input type="text" class="search-input" placeholder="Enter Name, Keywords..." name="" />
+          <a href="#" class="search-icon"><i class="bi bi-search text-white"></i></a>
+        </div>
+      </div>
 
       <div class="seconddiv rounded-4 bg-secondary shadow-sm" style="height: 75vh"></div>
       <div class="thirddiv rounded-4 bg-gray-500 shadow-sm" style="height: 75vh"></div>
       <div class="fourthdiv rounded-4 bg-success shadow-sm" style="height: 75vh"></div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

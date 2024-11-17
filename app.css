@@ -31,6 +31,57 @@ body {
   }
 } */
 
+.search {
+  width: 40%;
+  margin: 2em auto;
+  height: 3.5em;
+  background-color: #ffffff;
+  padding: 0.75em 1em;
+  border-radius: 2em;
+}
+
+.search-input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top: 5px;
+  caret-color: transparent;
+  line-height: 20px;
+  transition: width 0.4s linear;
+}
+
+.search .search-input {
+  padding: 0 10px;
+  width: 100%;
+  caret-color: #000000;
+  font-size: 19px;
+  font-weight: 300;
+  color: black;
+  transition: width 0.4s linear;
+}
+
+.search-icon {
+  height: 5em;
+  width: 5em;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #e7c873;
+  font-size: 0.6em;
+  transform: translateY(-3.8em);
+  transform: translateX(1em) translateY(-3.8em);
+  position: relative;
+  border-radius: 50%;
+}
+
+.bi-search {
+  font-size: 2em; /* Icon size inside the button */
+}
+
 .container {
   padding-top: -4em; /* Adjust this to avoid content being hidden under the navbar */
 }
