@@ -39,6 +39,10 @@ body {
   font-size: 1.8em;
 }
 
+.member-login-display {
+  display: none;
+}
+
 .member-login {
   width: 1.8em;
   height: 1.8em;
@@ -151,17 +155,17 @@ body {
 }
 
 .seconddiv {
-  background-color: #e7e7e7;
+  background-color: #f2f3f3;
   margin: 1em 0;
 }
 
 .thirddiv {
-  background-color: #c7c7c7;
+  background-color: none;
   margin: 1em 0;
 }
 
 .fourthdiv {
-  background-color: #90b1b1;
+  background-color: #e7c873;
   margin: 1em 0;
 }
 
@@ -207,5 +211,38 @@ body {
     transform: translateX(1em) translateY(-3.8em);
     position: relative;
     border-radius: 50%;
+  }
+
+  .nav-contact-group {
+    margin-left: 2.5em;
+  }
+
+  .member-login {
+    width: 2em;
+    height: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+  }
+  .member-login:hover {
+    background-color: #e7c873;
+    transform: scale(1.1);
+  }
+
+  .member-login-display {
+    display: inline;
+    margin-left: 0.2em;
+  }
+
+  .add-property-btn {
+    margin: 0.5em 0 0 3em;
+  }
+  #nav {
+    margin: 0.8em 0;
   }
 }
