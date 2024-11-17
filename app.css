@@ -25,6 +25,51 @@ body {
   margin: 0 50px;
 }
 
+.nav-contact {
+  font-size: 1em;
+  margin: 0 0.5em;
+}
+.nav-contact i {
+  font-size: 1.5em;
+}
+.nav-contact-number {
+  margin-right: 2em;
+}
+.member-login i {
+  font-size: 1.8em;
+}
+
+.member-login {
+  width: 1.8em;
+  height: 1.8em;
+  border: solid 0.5em black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  color: #313131;
+}
+
+.member-login:hover {
+  background-color: #e7c873; /* Darker shade on hover */
+  transform: scale(1.1);
+}
+
+.add-property-btn {
+  color: #000000;
+  border: solid 1px black;
+  border-radius: 1em;
+  padding: 0.3em 2em;
+  margin: 0 2em;
+}
+.add-property-btn:hover {
+  color: #000000;
+  background-color: #e7c873;
+  transform: scale(1.03);
+}
+
 .firstdiv h1 {
   font-size: 4em;
   color: white;
@@ -89,6 +134,9 @@ body {
   border-radius: 50%;
 }
 
+.search-icon:hover {
+  transform: translateX(1em) translateY(-3.8em) scale(1.1); /* Combine scale with translate */
+}
 .bi-search {
   font-size: 2em; /* Icon size inside the button */
 }
