@@ -156,6 +156,7 @@ body {
 
 .seconddiv {
   background-color: #f2f3f3;
+  opacity: 100%;
   margin: 1em 0;
 }
 
@@ -222,6 +223,20 @@ body {
 
 .subtitle-1 {
   margin-right: 2em;
+}
+
+.seconddiv {
+  position: relative;
+  z-index: 1;
+}
+
+.seconddiv-feat {
+  position: relative;
+  z-index: 2;
+  transform: translateY(12em);
+}
+.seconddiv-feat h2 {
+  font-size: 2.5em;
 }
 
 @media (max-width: 500px) {
@@ -324,5 +339,14 @@ body {
 
   .carousel-indicators {
     display: none;
+  }
+
+  .seconddiv-feat {
+    position: relative;
+    z-index: 2;
+    transform: translateY(0.5em);
+  }
+  .seconddiv-feat h2 {
+    font-size: 1.5em;
   }
 }
