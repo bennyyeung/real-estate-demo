@@ -258,6 +258,27 @@ body {
   margin-top: 2em;
 }
 
+@media (max-width: 1750px) {
+  .nav-contact-number {
+    display: none;
+  }
+}
+/* @media (max-width: 1325px) {
+  .add-property-btn {
+    display: none;
+  }
+}
+@media (max-width: 994px) {
+  .seconddiv-feat h2 {
+    transform: translatey(-5em);
+    font-size: 2em;
+  }
+  .seconddiv-feat p {
+    transform: translatey(-9em);
+    font-size: 1em;
+  }
+} */
+
 @media (max-width: 500px) {
   .firstdiv {
     z-index: 1;
@@ -373,7 +394,7 @@ body {
     position: relative;
     z-index: 1;
     margin: 1em 0;
-    margin-bottom: 36em;
+    margin-bottom: 41.5em;
   }
   .thirddiv {
     position: relative;
@@ -385,9 +406,17 @@ body {
     margin-top: 0em;
     transform: translateY(1em);
   }
+  .thirddiv-text {
+    transform: translateY(-7em);
+  }
+
   .thirddiv-text p {
     max-width: 100%;
   }
+  .imageset {
+    transform: translateY(-15em);
+  }
+
   .imageset div img {
     width: 10em;
     height: 10em;
