@@ -388,4 +388,8 @@ body {
   .thirddiv-text p {
     max-width: 100%;
   }
+  .imageset div img {
+    width: 10em;
+    height: 10em;
+  }
 }
