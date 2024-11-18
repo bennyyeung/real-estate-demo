@@ -158,6 +158,7 @@ body {
   background-color: #f2f3f3;
   opacity: 100%;
   margin: 1em 0;
+  margin-bottom: 10em;
 }
 
 .card {
@@ -194,12 +195,21 @@ body {
 }
 
 .thirddiv {
-  background-color: none;
-  margin: 1em 0;
+  background-color: #e7c873;
+  margin-top: 8em;
+}
+
+.thirddiv-text {
+  padding-top: 12em;
+}
+
+.imageset {
+  margin-top: 8em;
 }
 
 .fourthdiv {
   background-color: rgb(29, 29, 29);
+  margin: 1em 0;
 }
 
 .social-logos a {
@@ -228,6 +238,7 @@ body {
 .seconddiv {
   position: relative;
   z-index: 1;
+  margin: 1em 0;
 }
 
 .seconddiv-feat {
@@ -237,6 +248,14 @@ body {
 }
 .seconddiv-feat h2 {
   font-size: 2.5em;
+}
+.thirddiv {
+  height: 75vh;
+}
+
+.thirddiv-text p {
+  max-width: 52%;
+  margin-top: 2em;
 }
 
 @media (max-width: 500px) {
@@ -348,5 +367,25 @@ body {
   }
   .seconddiv-feat h2 {
     font-size: 1.5em;
+  }
+
+  .seconddiv {
+    position: relative;
+    z-index: 1;
+    margin: 1em 0;
+    margin-bottom: 36em;
+  }
+  .thirddiv {
+    position: relative;
+    padding: 0 0 0 0;
+    margin: 0.5em 0;
+    height: 150vh;
+  }
+  .fourthdiv {
+    margin-top: 0em;
+    transform: translateY(1em);
+  }
+  .thirddiv-text p {
+    max-width: 100%;
   }
 }
