@@ -170,7 +170,7 @@ body {
 
 .social-logos a {
   color: gray;
-  font-size: 1.4em; /* Adjust to the desired size */
+  font-size: 1.5em; /* Adjust to the desired size */
   line-height: 1; /* Prevents line-height issues */
 }
 
@@ -268,7 +268,16 @@ body {
     margin: 0.8em 0;
   }
 
-  .social-logos {
-    font-size: 1em;
+  .custom-border-bottom {
+    width: 90%;
+  }
+
+  .footer-logo img {
+    margin: 1em 0;
+  }
+
+  .social-logos a {
+    font-size: 1.5em;
+    margin: 0.5em;
   }
 }
