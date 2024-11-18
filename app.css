@@ -165,8 +165,30 @@ body {
 }
 
 .fourthdiv {
-  background-color: #e7c873;
-  margin: 1em 0;
+  background-color: rgb(29, 29, 29);
+}
+
+.social-logos a {
+  color: gray;
+  font-size: 1.4em; /* Adjust to the desired size */
+  line-height: 1; /* Prevents line-height issues */
+}
+
+.custom-border-bottom {
+  width: 80%;
+  margin: auto;
+  border-bottom: 0.1em solid gray; /* Adjust thickness and color */
+}
+
+.subtitle h6 {
+  color: gray;
+}
+.subtitle p {
+  color: white;
+}
+
+.subtitle-1 {
+  margin-right: 2em;
 }
 
 @media (max-width: 500px) {
@@ -244,5 +266,9 @@ body {
   }
   #nav {
     margin: 0.8em 0;
+  }
+
+  .social-logos {
+    font-size: 1em;
   }
 }
